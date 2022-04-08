@@ -1,0 +1,485 @@
+{
+  "project" : {
+    "id" : "7884-500000009-zXk",
+    "name" : "7884-500000009-zXk",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : true,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC-03:00",
+    "extendedSettings" : {
+      "patternsEnabled" : true,
+      "tokenizerEngine" : "udpipe",
+      "stsSettings" : {
+        "exactMatch" : 1,
+        "lemmaMatch" : 0.95,
+        "jaccardMatch" : 0.5,
+        "jaccardMatchThreshold" : 0.82,
+        "acronymMatch" : 1,
+        "synonymMatch" : 0,
+        "synonymContextWeight" : 0,
+        "patternMatch" : 1,
+        "throughPatternMatch" : 0,
+        "wordSequence1" : 0.8,
+        "wordSequence2" : 0.9,
+        "wordSequence3" : 1,
+        "intermediateAlternativesLimit" : 5,
+        "finalAlternativesLimit" : 5,
+        "idfShift" : 0,
+        "idfMultiplier" : 1,
+        "namedEntitiesRequired" : true
+      },
+      "allowedPatterns" : [ ]
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 195976,
+    "path" : "/география",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "москва"
+    }, {
+      "text" : "санкт-петербург"
+    }, {
+      "text" : "питер"
+    }, {
+      "text" : "владивосток"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "geo",
+      "entity" : "mystem.geo",
+      "required" : true,
+      "prompts" : [ ],
+      "array" : false
+    } ],
+    "priority" : 0
+  }, {
+    "id" : 195977,
+    "path" : "/погода",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "я хочу узнать погоду"
+    }, {
+      "text" : "погода"
+    }, {
+      "text" : "в москве завтра жарко?"
+    }, {
+      "text" : "покажи погоду"
+    }, {
+      "text" : "сколько градусов в лос-анджелесе"
+    }, {
+      "text" : "самара погода"
+    }, {
+      "text" : "самара погода"
+    }, {
+      "text" : "погода послезавтра в париже"
+    }, {
+      "text" : "расскажи про погоду"
+    }, {
+      "text" : "покажи прогноз"
+    }, {
+      "text" : "нужно узнать температуру завтра"
+    }, {
+      "text" : "какая погода через неделю?"
+    }, {
+      "text" : "узнать прогноз погоды"
+    }, {
+      "text" : "Будет тепло"
+    }, {
+      "text" : "Какая там погода"
+    }, {
+      "text" : "Какая температура"
+    }, {
+      "text" : "Завтра будет тепло?"
+    }, {
+      "text" : "В среду холодно?"
+    }, {
+      "text" : "Какая погода на выходных?"
+    }, {
+      "text" : "В москве тепло"
+    }, {
+      "text" : "Погода в Анталии"
+    }, {
+      "text" : "Питер погода"
+    }, {
+      "text" : "В Москве завтра тепло?"
+    }, {
+      "text" : "Погода в москве"
+    }, {
+      "text" : "Температура завтра Сочи"
+    }, {
+      "text" : "хочу узнать погоду"
+    }, {
+      "text" : "мне хотелось бы узнать погоду"
+    }, {
+      "text" : "выведи погоду"
+    }, {
+      "text" : "погода на день"
+    }, {
+      "text" : "погода на завтра"
+    }, {
+      "text" : "погода на послезавтра"
+    }, {
+      "text" : "погода на три дня"
+    }, {
+      "text" : "хочу знать погоду на завтра"
+    }, {
+      "text" : "погода в Белгороде"
+    }, {
+      "text" : "погода в Египте"
+    }, {
+      "text" : "погода в Комсомольск-на-Амуре"
+    }, {
+      "text" : "погода в Репном"
+    }, {
+      "text" : "хочу знать погоду на Ростове"
+    }, {
+      "text" : "выведи погоду в Египте"
+    }, {
+      "text" : "Какая погода в Москве"
+    }, {
+      "text" : "Сколько сейчас градусов"
+    }, {
+      "text" : "Какая температура на улице"
+    }, {
+      "text" : "Какая завтра погода"
+    }, {
+      "text" : "Прогноз погоды на неделю"
+    }, {
+      "text" : "Погода в понедельник в Москве"
+    }, {
+      "text" : "Какая будет погода на следующей неделе"
+    }, {
+      "text" : "Прогноз на следующую неделю"
+    }, {
+      "text" : "Погода Москва "
+    }, {
+      "text" : "Погода в Египте"
+    }, {
+      "text" : "Какая погода в Танзании  на неделе "
+    }, {
+      "text" : "Самый теплый месяц в Крыму"
+    }, {
+      "text" : "Погода в Новосибирске"
+    }, {
+      "text" : "завтра в Москве тепло?"
+    }, {
+      "text" : "Чё по погоде"
+    }, {
+      "text" : "Погода через неделю питер"
+    }, {
+      "text" : "Какая погода на след.неделе в Турине"
+    }, {
+      "text" : "сколько градусов завтра в иванове?"
+    }, {
+      "text" : "через три дня будет снег?"
+    }, {
+      "text" : "хочу завтра покататься на лыжах в хвалынске, будет холодно?"
+    }, {
+      "text" : "сколько завтра обещают?"
+    }, {
+      "text" : "прогноз погоды екатеринбург"
+    }, {
+      "text" : "что завтра по температуре?"
+    }, {
+      "text" : "Погоду на завтра в Северодвинске"
+    }, {
+      "text" : "завтра солнечно?"
+    }, {
+      "text" : "цюрих, погода"
+    }, {
+      "text" : "завтра хорошая погода?"
+    }, {
+      "text" : "завтра будет снег?"
+    }, {
+      "text" : "мне нужны завтра солнечные очки?"
+    }, {
+      "text" : "в субботу нужен зонт?"
+    }, {
+      "text" : "так чё там по погоде в одинцово"
+    }, {
+      "text" : "дождь будет?"
+    }, {
+      "text" : "послезавтра в москве будет туман?"
+    }, {
+      "text" : "что с облачностью?"
+    }, {
+      "text" : "в четверг дождливо в лас-вегасе?"
+    }, {
+      "text" : "обещают ли через три дня осадки?"
+    }, {
+      "text" : "в пятницу брать зонт?"
+    }, {
+      "text" : "будет солнце?"
+    }, {
+      "text" : "меня интересует погода в москве"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "geo",
+      "entity" : "mystem.geo",
+      "required" : false,
+      "prompts" : [ ],
+      "array" : false
+    }, {
+      "name" : "date",
+      "entity" : "duckling.date",
+      "required" : false,
+      "prompts" : [ ],
+      "array" : false
+    } ],
+    "priority" : 0
+  }, {
+    "id" : 195978,
+    "path" : "/путёвка",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Посоветуйте, пожалуйста, отель в Турции"
+    }, {
+      "text" : "Выбор отеля Турция"
+    }, {
+      "text" : "путевка неделя турция"
+    }, {
+      "text" : "Подбор тура"
+    }, {
+      "text" : "Тур с отелем и экскурсиями"
+    }, {
+      "text" : "Как  купить тур в рассрочку"
+    }, {
+      "text" : "Отели Турции, где нет детей"
+    }, {
+      "text" : "хочу тур в египед"
+    }, {
+      "text" : "отдых на канарах"
+    }, {
+      "text" : "закажи тур в маями"
+    }, {
+      "text" : "хочу в тур"
+    }, {
+      "text" : "хочу оформить путевку"
+    }, {
+      "text" : "тур с детьми"
+    }, {
+      "text" : "тур с ребенком"
+    }, {
+      "text" : "отель чаелдфри"
+    }, {
+      "text" : "отель с детьми"
+    }, {
+      "text" : "хочу в роскошный отель"
+    }, {
+      "text" : "дорогущий отель"
+    }, {
+      "text" : "у меня бюджет на недорогой тур"
+    }, {
+      "text" : "дешевый тур"
+    }, {
+      "text" : "хочу в тур с ноября"
+    }, {
+      "text" : "хочу путевку"
+    }, {
+      "text" : "Доступные туры"
+    }, {
+      "text" : "Туры дешевле "
+    }, {
+      "text" : "тур недорого"
+    }, {
+      "text" : "Горящие туры на море"
+    }, {
+      "text" : "Лучшие отели Турции"
+    }, {
+      "text" : "Выбрать тур в Турцию на двоих"
+    }, {
+      "text" : "Лучшие отели в Тамбове"
+    }, {
+      "text" : "Молодежные отели в Турции"
+    }, {
+      "text" : "Семейные отели в Турции"
+    }, {
+      "text" : "Отели Турции все включено"
+    }, {
+      "text" : "Сколько стоит путевка на Кубу на двоих "
+    }, {
+      "text" : "ночь в отеле Рэдиссон в Москве"
+    }, {
+      "text" : "Туры в Анталию в ноябре цены"
+    }, {
+      "text" : " Хочу в турцию"
+    }, {
+      "text" : "Как заказать тур"
+    }, {
+      "text" : "Путёвка"
+    }, {
+      "text" : "хочу поехать в екатеринбург"
+    }, {
+      "text" : "что предложите в индии?"
+    }, {
+      "text" : "как оформить поездку в египет"
+    }, {
+      "text" : "хочу заказать поездку в германию"
+    }, {
+      "text" : "хочу путевку в нальчик"
+    }, {
+      "text" : "как оформить тур в ростов на дону?"
+    }, {
+      "text" : "Где жить на Кипре"
+    }, {
+      "text" : "Хочу поехать в Сибирь найди мне пожалуйста место в Магнитогорске"
+    }, {
+      "text" : "Отдых на море"
+    }, {
+      "text" : "горящие туры анкара"
+    }, {
+      "text" : "а есть ли путевки на ноябрь?"
+    }, {
+      "text" : "есть ли путевки в нальчик?"
+    }, {
+      "text" : "в тунис хочу пипец"
+    }, {
+      "text" : "отели мараккеш"
+    }, {
+      "text" : "очень хочется в бельгию"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "geo",
+      "entity" : "mystem.geo",
+      "required" : false,
+      "prompts" : [ ],
+      "array" : false
+    } ],
+    "priority" : 0
+  }, {
+    "id" : 195979,
+    "path" : "/телефон",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "мой номер 79151034778"
+    }, {
+      "text" : "89171055776"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "phone",
+      "entity" : "duckling.phone-number",
+      "required" : true,
+      "prompts" : [ ],
+      "array" : false
+    } ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "mystem.geo", "mystem.persn", "pymorphy.name", "duckling.number", "duckling.time", "duckling.date", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url", "duckling.interval" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : true
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : true
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : true
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : false
+  }, {
+    "name" : "zb.number",
+    "enabled" : false
+  } ]
+}
